@@ -1,0 +1,62 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!configs/.env.example
+
+# macOS / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log
+service.log
+full_training.log
+
+# Raw and local datasets
+data/raw/*.csv
+data/raw/*.parquet
+data/raw/*.zip
+data/sample/*.csv
+!data/raw/.gitkeep
+!data/sample/.gitkeep
+
+# Trained models and generated artifacts
+artifacts/*.joblib
+artifacts/*.pkl
+artifacts/*.pickle
+artifacts/*.onnx
+artifacts/*.json
+artifacts/*.csv
+!artifacts/.gitkeep
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+~$*

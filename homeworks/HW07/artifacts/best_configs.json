@@ -1,0 +1,28 @@
+{
+  "dataset_01": {
+    "best_method": "KMeans",
+    "params": {
+      "k": 2,
+      "random_state": 42,
+      "n_init": 10
+    },
+    "criterion": "silhouette (max); совпадает с Agglomerative(ward,k=2)"
+  },
+  "dataset_02": {
+    "best_method": "DBSCAN",
+    "params": {
+      "eps": 1.0,
+      "min_samples": 20
+    },
+    "criterion": "silhouette (max) на non-noise + явная обработка выбросов/шума"
+  },
+  "dataset_04": {
+    "best_method": "KMeans",
+    "params": {
+      "k": 5,
+      "random_state": 42,
+      "n_init": 10
+    },
+    "criterion": "silhouette (max); совпадает с Agglomerative(ward,k=5)"
+  }
+}

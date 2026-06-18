@@ -1,0 +1,47 @@
+{
+  "Dummy": {
+    "model": "Dummy",
+    "accuracy": 0.95088,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc": 0.5,
+    "pr_auc": 0.04912
+  },
+  "LogReg": {
+    "model": "LogReg",
+    "accuracy": 0.7792,
+    "precision": 0.15409413281753706,
+    "recall": 0.7785016286644951,
+    "f1": 0.2572658772874058,
+    "roc_auc": 0.8418608704517014,
+    "pr_auc": 0.45700182544850415
+  },
+  "DecisionTree": {
+    "model": "DecisionTree",
+    "accuracy": 0.86112,
+    "precision": 0.21464903357070192,
+    "recall": 0.6872964169381107,
+    "f1": 0.3271317829457364,
+    "roc_auc": 0.814797854317427,
+    "pr_auc": 0.5767066899270448
+  },
+  "RandomForest": {
+    "model": "RandomForest",
+    "accuracy": 0.9768,
+    "precision": 0.9602272727272727,
+    "recall": 0.5504885993485342,
+    "f1": 0.6997929606625258,
+    "roc_auc": 0.9066917474969869,
+    "pr_auc": 0.7747404245764313
+  },
+  "HistGradientBoosting": {
+    "model": "HistGradientBoosting",
+    "accuracy": 0.98064,
+    "precision": 0.984375,
+    "recall": 0.6156351791530945,
+    "f1": 0.7575150300601202,
+    "roc_auc": 0.9102022964087166,
+    "pr_auc": 0.7978275358159795
+  }
+}

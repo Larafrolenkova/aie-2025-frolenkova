@@ -1,0 +1,30 @@
+project:
+  name: project
+  random_state: 42
+
+paths:
+  train_data: data/raw/train.csv
+  sample_data: data/sample/test.csv
+  model_artifact: artifacts/taxi_duration_pipeline.joblib
+  metrics_artifact: artifacts/model_metrics.json
+  experiments_artifact: artifacts/experiment_results.csv
+
+training:
+  test_size: 0.20
+  max_rows: null
+  target_column: trip_duration
+  final_model: random_forest
+
+filters:
+  min_trip_duration_seconds: 30
+  max_trip_duration_seconds: 7200
+  min_passenger_count: 1
+  max_passenger_count: 8
+  min_distance_km: 0.05
+  max_distance_km: 100.0
+
+service:
+  host: 127.0.0.1
+  port: 8000
+  model_version: "1.0.0"
+  log_level: INFO

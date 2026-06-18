@@ -1,0 +1,11 @@
+query,expected_source,retrieved_sources,hit_at_k,rank_of_first_relevant
+To whom did the Virgin Mary allegedly appear in 1858 in Lourdes France?,University_of_Notre_Dame,"University_of_Notre_Dame, University_of_Notre_Dame, University_of_Notre_Dame, Beyoncé, University_of_Notre_Dame",1,1
+What is in front of the Notre Dame Main Building?,University_of_Notre_Dame,"University_of_Notre_Dame, University_of_Notre_Dame, University_of_Notre_Dame, University_of_Notre_Dame, University_of_Notre_Dame",1,1
+The Basilica of the Sacred heart at Notre Dame is beside to which structure?,University_of_Notre_Dame,"University_of_Notre_Dame, University_of_Notre_Dame, University_of_Notre_Dame, University_of_Notre_Dame, University_of_Notre_Dame",1,1
+What is the Grotto at Notre Dame?,University_of_Notre_Dame,"University_of_Notre_Dame, University_of_Notre_Dame, University_of_Notre_Dame, University_of_Notre_Dame, University_of_Notre_Dame",1,1
+What sits on top of the Main Building at Notre Dame?,University_of_Notre_Dame,"University_of_Notre_Dame, University_of_Notre_Dame, University_of_Notre_Dame, New_York_City, University_of_Notre_Dame",1,1
+When did the Scholastic Magazine of Notre dame begin publishing?,University_of_Notre_Dame,"University_of_Notre_Dame, University_of_Notre_Dame, University_of_Notre_Dame, University_of_Notre_Dame, University_of_Notre_Dame",1,1
+How often is Notre Dame's the Juggler published?,University_of_Notre_Dame,"University_of_Notre_Dame, University_of_Notre_Dame, University_of_Notre_Dame, University_of_Notre_Dame, University_of_Notre_Dame",1,1
+What is the daily student paper at Notre Dame called?,University_of_Notre_Dame,"University_of_Notre_Dame, University_of_Notre_Dame, University_of_Notre_Dame, University_of_Notre_Dame, University_of_Notre_Dame",1,1
+How many student news papers are found at Notre Dame?,University_of_Notre_Dame,"University_of_Notre_Dame, University_of_Notre_Dame, University_of_Notre_Dame, University_of_Notre_Dame, University_of_Notre_Dame",1,1
+In what year did the student paper Common Sense begin publication at Notre Dame?,University_of_Notre_Dame,"University_of_Notre_Dame, University_of_Notre_Dame, University_of_Notre_Dame, University_of_Notre_Dame, University_of_Notre_Dame",1,1

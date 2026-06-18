@@ -1,0 +1,26 @@
+[
+  {
+    "k":1,
+    "hit@k_by_title":1.0,
+    "hit@k_by_answer":0.4,
+    "recall@k_by_title":1.0,
+    "recall@k_by_answer":0.4,
+    "mrr@k":1.0
+  },
+  {
+    "k":3,
+    "hit@k_by_title":1.0,
+    "hit@k_by_answer":0.8,
+    "recall@k_by_title":1.0,
+    "recall@k_by_answer":0.8,
+    "mrr@k":1.0
+  },
+  {
+    "k":5,
+    "hit@k_by_title":1.0,
+    "hit@k_by_answer":0.8,
+    "recall@k_by_title":1.0,
+    "recall@k_by_answer":0.8,
+    "mrr@k":1.0
+  }
+]

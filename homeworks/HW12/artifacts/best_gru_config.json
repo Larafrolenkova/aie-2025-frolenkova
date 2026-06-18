@@ -1,0 +1,21 @@
+{
+  "experiment_id": "R1",
+  "model_name": "GRURegressor",
+  "task": "forecasting",
+  "dataset": "S12-hw-dataset.csv",
+  "seed": 42,
+  "device": "cpu",
+  "window_size": 14,
+  "horizon": 1,
+  "input_size": 1,
+  "hidden_size": 64,
+  "num_layers": 1,
+  "dropout": 0.0,
+  "batch_size": 32,
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "criterion": "MSELoss",
+  "epochs_trained": 30,
+  "scaler": "StandardScaler on target, fit on train only",
+  "split_summary": "temporal 70/15/15"
+}

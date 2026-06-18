@@ -1,0 +1,13 @@
+{
+  "dataset": "STL10",
+  "best_experiment_id": "C4",
+  "seed": 42,
+  "criterion": "CrossEntropyLoss",
+  "test_loader_used_once": true,
+  "architecture": "ResNet18 pretrained",
+  "transforms": "ResNet18_Weights.DEFAULT.transforms()",
+  "optimizer": "Adam",
+  "lr": 0.0001,
+  "epochs": 6,
+  "trainable_parts": "layer4 + fc"
+}
